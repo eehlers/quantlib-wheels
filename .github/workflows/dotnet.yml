@@ -1,5 +1,5 @@
 name: Build C# wrappers
-on: push
+on: workflow_dispatch
 jobs:
   dotnet-windows-64:
     runs-on: windows-2022
